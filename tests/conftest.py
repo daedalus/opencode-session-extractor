@@ -1,4 +1,4 @@
-"""Pytest configuration for opencode_extractor tests."""
+"""Pytest configuration for openode_session_extractor tests."""
 
 import tempfile
 import json

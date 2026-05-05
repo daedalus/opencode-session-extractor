@@ -1,6 +1,6 @@
 """Tests for core/formatting.py."""
 
-from opencode_extractor.core.formatting import (
+from openode_session_extractor.core.formatting import (
     format_time,
     format_text_part,
     format_tool_part,

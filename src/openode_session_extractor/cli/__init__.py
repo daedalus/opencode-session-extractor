@@ -1,4 +1,4 @@
-"""CLI module for opencode_extractor."""
+"""CLI module for openode_session_extractor."""
 
 from .commands import list_sessions, main
 

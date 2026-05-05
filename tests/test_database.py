@@ -4,7 +4,7 @@ import json
 import sqlite3
 from pathlib import Path
 
-from opencode_extractor.adapters.database import get_sessions, get_messages, get_parts
+from openode_session_extractor.adapters.database import get_sessions, get_messages, get_parts
 
 
 class TestGetSessions:

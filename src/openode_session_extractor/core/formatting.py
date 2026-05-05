@@ -1,4 +1,4 @@
-"""Formatting utilities for opencode_extractor."""
+"""Formatting utilities for openode_session_extractor."""
 
 import json
 from datetime import UTC, datetime

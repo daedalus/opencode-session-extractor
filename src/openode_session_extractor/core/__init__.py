@@ -1,4 +1,4 @@
-"""Core module for opencode_extractor."""
+"""Core module for openode_session_extractor."""
 
 from .formatting import (
     format_compaction_part,

@@ -3,7 +3,7 @@
 import argparse
 from unittest.mock import patch, MagicMock
 
-from opencode_extractor.cli.commands import list_sessions, main, DB_PATH
+from openode_session_extractor.cli.commands import list_sessions, main, DB_PATH
 
 
 class TestListSessions:

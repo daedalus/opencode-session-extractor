@@ -1,1 +1,1 @@
-"""Tests for opencode_extractor."""
+"""Tests for openode_session_extractor."""

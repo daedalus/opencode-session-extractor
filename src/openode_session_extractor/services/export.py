@@ -1,13 +1,13 @@
-"""Export services for opencode_extractor."""
+"""Export services for openode_session_extractor."""
 
 import html
 import json
 import sqlite3
 from typing import Any
 
-from opencode_extractor.adapters.database import get_messages, get_parts
-from opencode_extractor.core.formatting import format_part, format_time
-from opencode_extractor.core.hashing import write_if_changed
+from openode_session_extractor.adapters.database import get_messages, get_parts
+from openode_session_extractor.core.formatting import format_part, format_time
+from openode_session_extractor.core.hashing import write_if_changed
 
 
 def export_session_json(db_path: str, session_id: str, output_path: str) -> bool:

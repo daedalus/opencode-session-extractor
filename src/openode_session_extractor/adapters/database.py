@@ -1,4 +1,4 @@
-"""Database adapter for opencode_extractor."""
+"""Database adapter for openode_session_extractor."""
 
 import json
 import sqlite3

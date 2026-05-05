@@ -1,4 +1,4 @@
-"""Hashing and file collision detection utilities for opencode_extractor."""
+"""Hashing and file collision detection utilities for openode_session_extractor."""
 
 import hashlib
 import os

@@ -1,11 +1,11 @@
-"""CLI commands for opencode_extractor."""
+"""CLI commands for openode_session_extractor."""
 
 import argparse
 import os
 
-from opencode_extractor.adapters.database import get_sessions
-from opencode_extractor.core.formatting import format_time
-from opencode_extractor.services.export import (
+from openode_session_extractor.adapters.database import get_sessions
+from openode_session_extractor.core.formatting import format_time
+from openode_session_extractor.services.export import (
     export_session_html,
     export_session_json,
     export_session_markdown,
@@ -46,7 +46,7 @@ def main() -> int:
 
     Example:
         >>> import sys
-        >>> sys.argv = ['opencode_extractor', '--list']
+        >>> sys.argv = ['openode_session_extractor', '--list']
         >>> main()
         0
     """

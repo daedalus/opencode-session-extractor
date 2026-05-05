@@ -1,20 +1,20 @@
-**opencode_extractor** — Extract agent conversations from OpenCode SQLite database.
+**openode_session_extractor** — Extract agent conversations from OpenCode SQLite database.
 
-[![PyPI](https://img.shields.io/pypi/v/opencode_extractor.svg)](https://pypi.org/project/opencode_extractor/)
-[![Python](https://img.shields.io/pypi/pyversions/opencode_extractor.svg)](https://pypi.org/project/opencode_extractor/)
-[![Coverage](https://codecov.io/gh/daedalus/opencode_extractor/branch/main/graph/badge.svg)](https://codecov.io/gh/daedalus/opencode_extractor)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/daedalus/opencode_extractor)
+[![PyPI](https://img.shields.io/pypi/v/openode_session_extractor.svg)](https://pypi.org/project/openode_session_extractor/)
+[![Python](https://img.shields.io/pypi/pyversions/openode_session_extractor.svg)](https://pypi.org/project/openode_session_extractor/)
+[![Coverage](https://codecov.io/gh/daedalus/openode_session_extractor/branch/main/graph/badge.svg)](https://codecov.io/gh/daedalus/openode_session_extractor)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/daedalus/openode_session_extractor)
 
 ## Install
 
 ```bash
-pip install opencode_extractor
+pip install openode_session_extractor
 ```
 
 ## Usage
 
 ```python
-from opencode_extractor import export_session_json, export_session_markdown, export_session_html
+from openode_session_extractor import export_session_json, export_session_markdown, export_session_html
 
 # Export a session to JSON
 export_session_json("/path/to/opencode.db", "session_id", "output.json")
@@ -30,19 +30,19 @@ export_session_html("/path/to/opencode.db", "session_id", "output.html")
 
 ```bash
 # List available sessions
-opencode_extractor --list
+openode_session_extractor --list
 
 # Search sessions
-opencode_extractor --list --search "my project"
+openode_session_extractor --list --search "my project"
 
 # Export a specific session to all formats
-opencode_extractor --session SESSION_ID --output-dir ./exports
+openode_session_extractor --session SESSION_ID --output-dir ./exports
 
 # Export all sessions to Markdown only
-opencode_extractor --all --format markdown --output-dir ./exports
+openode_session_extractor --all --format markdown --output-dir ./exports
 
 # Use custom database path
-opencode_extractor --db /path/to/custom.db --list
+openode_session_extractor --db /path/to/custom.db --list
 ```
 
 ## API
@@ -73,8 +73,8 @@ opencode_extractor --db /path/to/custom.db --list
 ## Development
 
 ```bash
-git clone https://github.com/daedalus/opencode_extractor.git
-cd opencode_extractor
+git clone https://github.com/daedalus/openode_session_extractor.git
+cd openode_session_extractor
 pip install -e ".[test]"
 
 # run tests

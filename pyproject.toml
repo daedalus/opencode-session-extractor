@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "opencode_extractor"
+name = "opencode-session-extractor"
 version = "0.1.0"
 description = "Extract agent conversations from OpenCode SQLite database and export to JSON, Markdown, and HTML formats"
 readme = "README.md"
@@ -32,21 +32,21 @@ lint = [
     "prospector[with_ruff,with_mypy]",
     "semgrep",
 ]
-all = ["opencode_extractor[dev,test,lint]"]
+all = ["opencode-session-extractor[dev,test,lint]"]
 
 [project.scripts]
-opencode_extractor = "opencode_extractor.cli.commands:main"
+openode-session-extractor = "opencode_session_extractor.cli.commands:main"
 
 [project.urls]
-Homepage = "https://github.com/daedalus/opencode_extractor"
-Repository = "https://github.com/daedalus/opencode_extractor"
-Issues = "https://github.com/daedalus/opencode_extractor/issues"
+Homepage = "https://github.com/daedalus/openode-session-extractor"
+Repository = "https://github.com/daedalus/openode-session-extractor"
+Issues = "https://github.com/daedalus/openode-session-extractor/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/opencode_extractor"]
+packages = ["src/openode_session_extractor"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src/opencode_extractor"]
+include = ["src/openode_session_extractor"]
 
 [tool.ruff]
 line-length = 88

@@ -1,4 +1,4 @@
-# AGENTS.md — opencode_extractor
+# AGENTS.md — openode_session_extractor
 
 ## Overview
 

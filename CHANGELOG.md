@@ -15,4 +15,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CLI interface with argparse
 - List sessions with optional search and limit
 
-[0.1.0]: https://github.com/daedalus/opencode_extractor/releases/tag/v0.1.0
+[0.1.0]: https://github.com/daedalus/openode_session_extractor/releases/tag/v0.1.0

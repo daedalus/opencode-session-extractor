@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 
-from opencode_extractor.services.export import (
+from openode_session_extractor.services.export import (
     export_session_json,
     export_session_markdown,
     export_session_html,

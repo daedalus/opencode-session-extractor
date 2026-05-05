@@ -1,4 +1,4 @@
-# SPEC.md — opencode_extractor
+# SPEC.md — openode_session_extractor
 
 ## Purpose
 
@@ -141,7 +141,7 @@ List available sessions to stdout.
 ### CLI Interface (`__main__.py`)
 
 ```
-opencode_extractor [OPTIONS]
+openode_session_extractor [OPTIONS]
 
 Options:
   --db PATH              Path to OpenCode database (default: ~/.local/share/opencode/opencode.db)

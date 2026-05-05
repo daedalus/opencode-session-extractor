@@ -1,4 +1,4 @@
-"""Adapters module for opencode_extractor."""
+"""Adapters module for openode_session_extractor."""
 
 from .database import get_messages, get_parts, get_sessions
 

@@ -4,7 +4,7 @@ import os
 import tempfile
 from pathlib import Path
 
-from opencode_extractor.core.hashing import (
+from openode_session_extractor.core.hashing import (
     compute_file_hash,
     compute_content_hash,
     write_if_changed,
