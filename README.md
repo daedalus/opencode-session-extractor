@@ -2,8 +2,8 @@
 
 [![PyPI](https://img.shields.io/pypi/v/openode_session_extractor.svg)](https://pypi.org/project/openode_session_extractor/)
 [![Python](https://img.shields.io/pypi/pyversions/openode_session_extractor.svg)](https://pypi.org/project/openode_session_extractor/)
-[![Coverage](https://codecov.io/gh/daedalus/openode_session_extractor/branch/main/graph/badge.svg)](https://codecov.io/gh/daedalus/openode_session_extractor)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/daedalus/openode_session_extractor)
+[![Coverage](https://codecov.io/gh/daedalus/openode_session_extractor/branch/master/graph/badge.svg)](https://codecov.io/gh/daedalus/openode_session_extractor)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/master/assets/badge/v2.json)](https://github.com/astral-sh/ruff)[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/daedalus/openode_session_extractor)
 
 ## Install
 
